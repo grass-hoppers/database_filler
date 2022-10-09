@@ -58,7 +58,6 @@ if __name__ == "__main__":
             user='user1',
             dbname='db1',
             password='5XaqgNhk^8t76zPV')
-    FrequencyAnalysis(db)
     prs = Parser(db)
 
     get_new_news(prs, 2)
